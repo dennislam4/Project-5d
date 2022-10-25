@@ -3,7 +3,6 @@
 # Date: 10-22-2022
 # Description: Program contating NeighborhoodPets class that has methods for adding, deleting and searching for an
 # owner's pet. It saves that data to a JSON file and loads that data to get a set of all the pet species.
-
 import json
 
 
