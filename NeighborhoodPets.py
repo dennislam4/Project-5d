@@ -13,7 +13,6 @@ class DuplicateNameError(Exception):
 
 class NeighborhoodPets:
     """Class that represents Neigborhood pets"""
-
     def __init__(self):
         self._pet_dict = {}
 
@@ -37,8 +36,6 @@ class NeighborhoodPets:
         """Get method that returns the name of the owner from pet name in pet_dictionary"""
         if name in self._pet_dict:
             return self._pet_dict[name]['owner name']
-        if name not in self._pet_dict:
-            pass
 
     def save_as_json(self, json_file):
         """Save method that saves file as .json"""
